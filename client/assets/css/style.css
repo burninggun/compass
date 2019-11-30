@@ -1,5 +1,15 @@
-h1{
-    color: blue;
+
+.navbar{
+    transition: ease-in-out .25s;
+
+}
+.navbar-show{
+    background-color: #363f41 !important;
+}
+
+.navbar-show a{
+    color: white !important;
+
 }
 
 .pitch-container{
