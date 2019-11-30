@@ -1,2 +1,2 @@
-#compass
-just a sample static webapp for a presentation
+# Compass
+A static web app used to showcase a pseudo app for a presentation competition
