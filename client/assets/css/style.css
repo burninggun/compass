@@ -7,11 +7,14 @@ h1{
 }
 
 .pitch{
-    font-size: 1.7rem
+    font-size: 2rem;
 }
 
 .full-pg{
     height: 100vh;
+    background-image: url('/assets/imgs/orange-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 768px){
@@ -33,7 +36,7 @@ h1{
 }
 
 .device{
-    background-image: url('imgs/iphone_6_plus_white.png');
+    background-image: url('/assets/imgs/iphone_6_plus_white.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,4 +54,11 @@ h1{
     height: 60px;
     width: 203px;
     margin: 0 1rem 0 1rem;
+}
+
+.about-main{
+    padding-top: 100px;
+    background-image: url('/assets/imgs/orange-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
