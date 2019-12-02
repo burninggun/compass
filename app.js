@@ -12,9 +12,17 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/client', 'index.html'));
 })
 
+app.get('/features', (req, res) => {
+    res.sendFile(path.join(__dirname, '/client', 'features.html'));
+})
+
 app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, '/client', 'about.html'));
     // res.sendFile('/about.html', {root: path.join(__dirname + '/client')});
+})
+
+app.get('/contact', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client', 'contact.html'))
 })
 
 app.get('/*', (req, res) => {

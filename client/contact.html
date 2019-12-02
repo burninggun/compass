@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Compass</title>
     <link rel="stylesheet" href="/assets/css/style.css" >
+    <script src="https://kit.fontawesome.com/8fb99f3aa1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="/main.js" ></script>
+
 </head>
 <body>
     <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top bg-transparent">
@@ -21,8 +23,8 @@
         </button>
         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
             <ul class="navbar-nav float-right flex-row">
-                <li class="nav-item mx-2 active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item mx-2">
                     <a href="/features" class="nav-link">Features</a>
@@ -30,50 +32,50 @@
                 <li class="nav-item mx-2">
                     <a class="nav-link" href="/about">About</a>
                 </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="/contact">Contact</a>
+                <li class="nav-item mx-2 active">
+                    <a class="nav-link" href="/how">Contact <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
 
 
-    <div class="full-pg">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-md-7 my-auto">
-                    <div class="pitch-container mx-auto">
-                        <p class="pitch">
-                                Whether it is choosing a place to eat, date nights, or outdoor adventures, Compass can guide you in decision making
-                        </p>
-                        <button class="d-block w-75 mx-auto my-5 btn btn-outline-dark btn-lg">Start now for free!</button>
-                    </div>
-                </div>
-
-                <div class="col-md-5 w-100 h-100 my-4">
-                    <div class="device-container h-100">
-                        <div class="device-mockup">
-                            <div class="device"></div>
-                        </div>
-                    </div>
-                </div>
+    <div class="about-main pb-5">
+        <div class="container-fluid w-100 pb-5 mt-5">
+            <div class="pb-5">
+                <p class="hero-mainfont m-0" >Contact Us</p>
+                <p class="hero-subfont m-0">Do you vibe with us? Lets connect!</p>
             </div>
+            
+        <div class=" input-group mb-3 w-100">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Your Email: </span>
+                </div>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>      
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Body</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>      
+            <button class="btn btn-outline-dark float-right mt-3" >Send</button>
         </div>
+
     </div>
 
-    <div class="bg-warning py-5 ">
-        <div class="container">
-
-            <p class="display-3 text-center">
-                Discover what the buzz is about!
-            </p>
-            <p class="text-center" >
-                Our app is available on any mobile device! Download now to get started!
-            </p>
-            <div class="d-flex justify-content-center banners pb-5">
-                <img src="/assets/imgs/app-store-badge.svg" />
-                <img src="/assets/imgs/google-play-badge.svg" />
-            </div>
+    <div class="bg-warning pt-150  pb-5 ">
+        <h1 class="text-center" >We love new friends!</h1>
+        <div class="social-media-container">
+            <a class="social-media-icon twitter" href="#" >
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="social-media-icon google" href="#">
+                <i class="fab fa-google-plus"></i>
+            </a>
+            <a class="social-media-icon facebook" href="#">
+                <i class="fab fa-facebook"></i>
+            </a>
         </div>
 
     </div>
