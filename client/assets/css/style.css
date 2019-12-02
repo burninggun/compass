@@ -46,7 +46,7 @@
 }
 
 .device{
-    background-image: url('/assets/imgs/iphone_6_plus_white.png');
+    background-image: url('/assets/imgs/phone.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,6 +128,9 @@
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.21);
     margin: 0 15px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .social-media-container{
@@ -171,20 +174,24 @@
 
 .gem{
     background-image: url('../imgs/gem.jpeg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
+
 .vivian{
     background-image: url('../imgs/vivian.jpeg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .carlie{
-    background: url("../imgs/carlie.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("../imgs/carlie.jpeg");
+}
+
+.leslie{
+    background-image: url("../imgs/leslie.jpeg");
+}
+
+.herm{
+    background-image: url("../imgs/hermie.jpeg");
+}
+
+.will{
+    background-image: url("../imgs/will.jpg")
 }
