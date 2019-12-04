@@ -133,6 +133,15 @@
     background-position: center;
 }
 
+.team-container > div > p {
+    text-align: center;
+}
+
+.team-container> div:hover > p{
+    color: white;
+    transition: ease-in-out .25s;
+}
+
 .social-media-container{
     display: flex;
     justify-content: space-evenly;
@@ -194,4 +203,9 @@
 
 .will{
     background-image: url("../imgs/will.jpg")
+}
+
+.photo-title{
+    color: white;
+    text-align:center;
 }
