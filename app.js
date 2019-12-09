@@ -25,6 +25,10 @@ app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname, 'client', 'contact.html'))
 })
 
+app.get('/get_started', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client', 'get_started.html'))
+})
+
 app.get('/*', (req, res) => {
     res.redirect('/')
 })
